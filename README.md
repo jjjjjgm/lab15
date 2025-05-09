@@ -1,10 +1,10 @@
-# Calculator Project
+# Calculator - Maven Java Project
 
-Maven суурьтай Java төслийн жишээ (Lab15).
+Энгийн тооны машин төслийг Maven, Git Workflow, CI ашиглан хөгжүүлсэн.
 
-## Тушаалууд:
-```
+## Төслийг ажиллуулах
+
+```bash
 mvn test
 mvn checkstyle:check
 mvn jacoco:report
-```
