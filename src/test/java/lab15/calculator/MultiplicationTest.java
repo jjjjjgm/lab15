@@ -15,4 +15,15 @@ public class MultiplicationTest {
         Multiplication calc = new Multiplication();
         assertEquals(-6.0, calc.multiply(-2.0, 3.0));
     }
+    @Test
+    void testDivisionPositive() {
+        Division calc = new Division();
+        assertEquals(3.0, calc.division(9.0, 3.0));
+    }
+
+    @Test
+    void testDivisionNegative() {
+        Division calc = new Division();
+        assertEquals(-3.0, calc.division(-9.0, 3.0));
+    }
 }
